@@ -1,0 +1,10 @@
+// showcase section //
+ang showcase section, pareha ra sa ordinary nga parallax, ang durian lang ang panaog. tapos kung muabot na sya sa line nga nagseparate sa showcase ug anatomy section, that's the end of it.
+
+
+// anatomy section //
+tapos siguro sa 70% na sa viewport magsugod og stagger appear ang tong health benefits ug nutrition facts. tapos ang durian dayon nga prutas, mura syag nahagbong gikan sa point atong sa babaw gani nga durian, pero gikan sya gamay, unya samtang gascroll, magtika dako sya hangtod sa muabot sa original size. tapos mang pop up dayon tong mga labels. tapos ulahi mugawas ang "anatomy of a durian" title.
+
+
+//durian variety section//
+pareha saimo. kada scroll, magswitch og lain variety pero gusto nako nga sa sa entrance sa image ug details, mura syag ni-fade in gani nga animation. tapos ang exit pud kay magbuwag ang image ug details. kibali ang image pa-left samtang ang details pa-right ang direction. tapos musulod napud dayon ang next nga variety. pareha saimohabeng ha nga nay murag snap ug pin.

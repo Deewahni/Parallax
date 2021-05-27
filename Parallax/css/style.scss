@@ -1,0 +1,235 @@
+$primary-color: #adb36e;
+
+* {
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f4f4f4;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;    
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+ul{
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.title {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 900;
+    color: #9a9e6cc4;
+}
+
+
+
+
+.showcase {
+    display: flex;
+    padding: 20px;
+    background: radial-gradient(#413c69,#4f3961,#383e56, #413c69);
+    color: white;
+    width: 100%;
+    height: 100vh;
+   
+
+    .king {
+        height: 100%;
+        position: absolute;
+        bottom: 0;
+        writing-mode: vertical-lr;
+        transform: rotate(180deg);
+        margin-bottom: 50px;
+        margin-left: 50px;
+
+        hr {
+            height:50%;
+            transform: translate(12px,50%);
+        }
+
+    }
+   
+
+    ul {
+        position: absolute;
+        top: 50px;
+        right: 50px;
+        max-width: 100px;
+        height: auto;
+        z-index: 10;
+
+        li {
+            transition: 0.4s;
+            cursor: pointer;
+            padding: 5px;
+            margin-bottom: 15px;
+        }
+
+        li:hover {
+            border-radius: 50%;
+            transform: scale(1.2);
+        }
+    }
+        
+}
+
+.durian {
+    position: relative;
+    display: inline-block;
+    width: 100vw;
+    height: auto;
+    z-index: 10;
+
+    div {
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+       }
+
+    div:first-child {
+        z-index: 2;
+    }
+       
+}
+
+section {
+    max-width: 1100px;
+    margin: 0 auto;  
+}
+
+.anatomy {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 50px 20px 0;
+    color: #4a503d;
+   
+    hr {
+        background-color: #adb36e;
+        height: 5px;
+    }
+
+    p, ul {
+        margin-top: 10px;
+        font-size: .8rem;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 3fr 1fr;
+    }
+
+ 
+    .parts {
+        position: relative;
+        background: url(../img/durian.png) no-repeat center center/cover;
+        transform: scale(.8);
+        width: 100%;
+        height: calc(100vh - 10vh);
+
+        
+        div{
+            position: absolute;
+            font-weight: 700;
+            color: #8e86cc;
+            
+        }
+
+        i {
+            color: #cacf96c4;
+            animation: dot 1.5s 6 linear;
+        }
+
+
+        @keyframes dot {
+            100% {
+                color: #4f3961;
+            }
+        }
+
+        
+    }
+
+    .stalk {
+        top: 80px;
+        left: 15%;
+    }
+
+    .shell {
+        bottom: 30%;
+        left: 20%;
+    }
+
+    .meat {
+        top: 250px;
+        left: 20%;
+    }
+
+    .partition{
+        bottom: 20%;
+        right: 50px;
+    }
+
+    .nutrition-facts {
+        transform: translateY(25%);
+    }
+    .nutrition-facts li {
+        line-height: 2;
+    }
+}
+
+.durian-variety {
+    margin-top: 100px;
+    width: 100%;
+    height: 100vh;
+
+    .sort {
+        padding: 50px;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+    }
+
+    .durian-image, .desc {
+        width: 50%;
+        margin: 20px;
+    }
+
+    .durian-image {
+        padding: 70px;
+        background: #adb36e;
+    }
+
+    .desc {
+        position: relative;
+        padding: 20px;
+
+        p{
+            z-index: 10;
+        }
+    }
+
+    .name-style {
+        position:absolute;
+        left: 0px;
+        bottom: 0px;
+        writing-mode: vertical-lr;
+        font-weight: 900;
+        font-size: 2.8rem;
+        color: #e7e9d5;
+        z-index: -1;
+    }
+}
